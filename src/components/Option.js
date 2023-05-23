@@ -8,9 +8,9 @@ export default class Option extends React.Component{
     
     render(){
         return (
-            <div>
+            <div className="center option">
                 {this.props.option}
-                <button onClick={this.handleDeleteOption}>X</button>
+                <button className="x-button" onClick={this.handleDeleteOption}>X</button>
             </div>
         );
     }

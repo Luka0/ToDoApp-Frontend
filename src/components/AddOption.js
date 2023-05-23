@@ -38,7 +38,9 @@ export default class AddOption extends React.Component{
                     <input name="option"></input>
                     <button>Add task</button>
                 </form>
-                {this.state.error}
+                <div className="error">
+                    {this.state.error}
+                </div>
             </div>
         );
     }

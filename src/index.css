@@ -1,0 +1,33 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    margin: 20px auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.option {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 2px;
+    border-radius: 5px;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.x-button {
+    position: absolute;
+    right: 0px;
+}
+
+.error {
+    color: red;
+}

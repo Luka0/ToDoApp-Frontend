@@ -68,7 +68,7 @@ export default class ToDoApp extends React.Component{
 
     render(){
         return (
-            <div>
+            <div className="center">
                 <Header />
                 <Options options={this.state.options} handleDeleteOption={this.handleDeleteOption} handleDeleteAll={this.handleDeleteAll} />
                 <AddOption options={this.state.options} handleAddOption={this.handleAddOption} />
